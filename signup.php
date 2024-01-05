@@ -3,6 +3,7 @@
      $email = $_POST['email'];
      $Password = $_POST['Password'];
 
+
    //Database connection
      $con = new mysqli("localhost","root","","firebase_login");
      if($con->connect_error) {
