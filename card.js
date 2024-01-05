@@ -11,6 +11,7 @@ const answers = {
 
 // Define a function to handle the form submission
 function handleSubmit(event) {
+  
   event.preventDefault(); // prevent the form from submitting and refreshing the page
   const answer = document.querySelector('#answer1').value.toLowerCase(); // get the user's answer and convert it to lowercase
   if (answer === answers.q1) { // if the answer is correct
